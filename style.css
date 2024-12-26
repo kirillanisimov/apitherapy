@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper{
+    background-image: url(img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 23vh;
+}
+.wrapper-inside{
+    height: 100%;
+    background-color: rgba(139, 132, 23, 0.37);
+}
+header{
+width: 1290px;
+margin: 0 auto;
+padding: 10px 0;
+height: 100px;
+box-sizing: border-box;
+font-size: 0;
+}
+.banner{
+background-image: url(/img/banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+box-sizing: border-box;
+height: (100vh - 100vh);
+text-align: center;
+
+/* не могу сделать задний фон картинки более прозрачной,
+чтобы не приходилось подбирать цвет текста для лучшего отображения*/
+}
+.logo img{
+    height: 144px;
+    margin: 0;
+}
+/*текст banner*/
+h1{
+font-family: "Lobster", serif;
+font-size: 60px;
+color: rgb(255, 166, 0);
+}
+h2{
+    font-family:"Lobster",serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-family: "lobster",serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.banner>h3 {
+width: 800px;
+color: rgb(78, 151, 18);
+}
+.btn{
+    display: inline-block;
+    color: rgb(70, 170, 40);
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 60px;
+    width: 100px;
+    line-height: 30px;
+    border-radius: 15px;
+    
+}
+nav{
+display: inline-block;
+vertical-align: top;
+width: 900px;
+height: 100%;
+padding: 0 100px;
+box-sizing: border-box;
+}
+nav>.link{
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    padding:0 20px;
+    background-color: rgb(172, 118, 3);
+    border-radius: 12px;
+}
+.link:hover{
+    background-color: rgb(43, 226, 202);
+color: rgb(64, 180, 180);
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.user-menu{
+    display:inline-block;
+    vertical-align: top;background-color: rgb(158, 99, 9);
+    border-radius: 15px;
+    width: 200px;
+    
+}
+button{
+    display: inline;
+    color: blue;
+    font-weight: 50;
+    text-transform: uppercase;
+    height: 50px;
+    width: 200px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.cards{
+    width: 1290px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 352px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards>.item{
+    color: rgb(112, 214, 16);
+    border:1px solid black ;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 15px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.item__img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-content: center;
+}
+.text{
+    align-content: center;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+}
+.footer{
+margin: 0;
+position: relative;
+height: 150px;
+width: 1400px;
+top: 333px;
+color: brown;
+}
